@@ -1,1 +1,12 @@
 /Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/BlogApplication.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/in/web/ArticleController.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/out/persistence/ArticleEntity.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/out/persistence/ArticleMapper.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/out/persistence/ArticleRepoAdapter.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/out/persistence/SpringArticleRepo.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/config/BeanConfig.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/domain/Article.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/domain/ArticleRepository.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/usecase/CreateArticleUseCase.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/usecase/dto/ArticleResponse.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/usecase/dto/CreateArticleCommand.java
