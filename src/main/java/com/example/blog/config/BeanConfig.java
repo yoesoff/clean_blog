@@ -18,10 +18,10 @@ public class BeanConfig {
 
     @Bean
     public ArticleRepository articleRepository(
-            SpringArticleRepo repo,
+            SpringArticleRepo springArticleRepo,
             ArticleMapper mapper
     ) {
-        return new ArticleRepoAdapter(repo, mapper);
+        return new ArticleRepoAdapter(springArticleRepo, mapper);
     }
 
     @Bean

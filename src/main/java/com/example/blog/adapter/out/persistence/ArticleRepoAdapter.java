@@ -13,10 +13,10 @@ public class ArticleRepoAdapter implements ArticleRepository {
     private final ArticleMapper mapper;
 
     public ArticleRepoAdapter(
-            SpringArticleRepo springRepo,
+            SpringArticleRepo springArticleRepo,
             ArticleMapper mapper
     ) {
-        this.springRepo = springRepo;
+        this.springRepo = springArticleRepo;
         this.mapper = mapper;
     }
 

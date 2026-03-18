@@ -1,5 +1,6 @@
 /Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/BlogApplication.java
 /Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/in/web/ArticleController.java
+/Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/in/web/GlobalExceptionHandler.java
 /Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/out/persistence/ArticleEntity.java
 /Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/out/persistence/ArticleMapper.java
 /Users/yusuf.ibrahim/learn_project/clean_blog/src/main/java/com/example/blog/adapter/out/persistence/ArticleRepoAdapter.java

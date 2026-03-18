@@ -3,6 +3,7 @@ package com.example.blog.adapter.in.web;
 import com.example.blog.usecase.CreateArticleUseCase;
 import com.example.blog.usecase.dto.ArticleResponse;
 import com.example.blog.usecase.dto.CreateArticleCommand;
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +20,7 @@ public class ArticleController {
     }
 
     @PostMapping
-    public ArticleResponse create(@RequestBody CreateArticleCommand cmd) {
+    public ArticleResponse create(@Valid @RequestBody CreateArticleCommand cmd) {
         return createArticleUseCase.execute(cmd);
     }
 }
